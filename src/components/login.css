@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+body {
+  background: #c0c0c0;
+  font-family: Raleway, sans-serif;
+  color: #666;
+}
+
+p {
+  color: red;
+}
+.error-msg {
+  margin: 0 0 5px 0;
+  text-align: left;
+  font-size: 14px;
+}
+.task-div input {
+  width: 1px;
+}
+
+.login {
+  margin: 20px auto;
+  padding: 40px 50px;
+  max-width: 400px;
+  border-radius: 5px;
+  background: #fff;
+}
+.login input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  font-family: Raleway, sans-serif;
+}
+label {
+  text-align: left;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  border: 1px solid #c0c0c0;
+  transition: 0.2s;
+}
+
+input[type="email" i] {
+  border: 1px solid #c0c0c0;
+  transition: 0.2s;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  font-weight: 900;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  background: #ef5350;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  /* margin-top: 15px; */
+  padding: 10px 30px;
+}
+
+.login h2 {
+  margin: 20px 0 0;
+  color: #ef5350;
+  font-size: 28px;
+}
+.edit-btn {
+  margin-right: 10px;
+}
+.del-btn {
+  margin-right: 10px;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.list {
+  padding: 15px 20px;
+}
